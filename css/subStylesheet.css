@@ -1,0 +1,276 @@
+body{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: #D7D9CE;
+	color: #040404;
+	padding: 4%;
+}
+
+nav, footer{
+	background-color: #0C7489;
+	padding: 3%;
+	margin-bottom: 3%;
+	border-radius: 2em;
+	min-height: 3em;
+	border: solid;
+	border-color: #13505B;
+	border-width: 0.3em;
+}
+
+footer{
+	text-align: center;
+	margin-top: 7%;
+	display: block;
+}
+
+#about{
+	display: none;
+}
+
+#line{
+	margin: 10%;
+
+}
+
+#heading{
+	text-align: center;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	border-radius: 1em;
+	background-color: #119da4;
+	display: block;
+	padding: 0.5%;
+	border: solid;
+	border-color: #13505B;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	border-width: 0.3em;
+}
+
+#aboutImg{
+	text-align: center;
+	border-style: solid;
+	border-radius: 4em;
+	background-color: #119da4;
+}
+
+#aboutText, #foreword, #baolocText, #familyText, #reasonForMajor, #currentEdu, #hobbies, #lastword{
+	text-align: justify;
+}
+
+#thanks{
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+h2{
+	font-weight: bold;
+}
+
+.dropbtn, .homebtn, .navLarge {
+  background-color: #04AA6D;
+  color: #ffffff;
+  padding: 1em;
+  font-size: 1em;
+  border: none;
+  border-radius: 1em;
+}
+
+#homeText, .navLargeText{
+	text-decoration: none;
+	color: white;
+}
+
+#largeActive{
+	background-color: #06b12a;
+}
+
+.navLarge:hover{
+	background-color: #16eb2f;
+}
+
+.homebtn:hover{
+	background-color: #16eb2f;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  float: right;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 1em;
+  box-shadow: 0em 0.5em 1em 0em rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 0.75em 1em;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #9a9a9a;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #16eb2f;}
+
+.active{
+	background-color: #ddd;
+}
+
+
+
+.decImg{
+	width: 75%;
+	height: 20%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	border: solid;
+	border-color: #0C7489;
+	border-width: 0.2em;
+}
+
+#largeNav{
+	display: none;
+}
+
+.iHover{
+	margin-right: 2%;
+	margin-left: 2%;
+}
+
+.iHover:hover{
+	background-color: #8ebcbf;
+	border-radius: 0.2em;
+}
+
+#lastword{
+	margin-top: 2%;
+}
+
+#hobbies{
+	margin-bottom: 7%;
+}
+
+.homebtn{
+	display: inline-block;
+	width: 2.5em;
+}
+
+
+
+@media only screen and (min-width: 992px) {
+	.dropdown{
+		display: none;
+	}
+	#about{
+		display: inline-block;
+	}
+
+	main{
+		width: 70%;
+	}
+
+	aside{
+		float: right;
+		width: 25%;
+	}
+
+	#baolocText, #familyText{
+		width: 50%;
+		display: inline-block;
+	}
+
+	#baolocImg{
+		width: 15em;
+		height: 18em;
+		width: 45%;
+		display: inline-block;
+		float: right;
+	}
+
+	#baoloc{
+		margin-bottom: 7%;
+	}
+
+	#education{
+		margin-top: 7%;
+	}
+	#reasonForMajor{
+		float:  right;
+		width:  50%;
+		display: inline-block;
+	}
+
+	#kidandcomputerImg{
+		width:  45%;
+		height: 20em;
+		display: inline-block;
+	}
+
+	#hobbies{
+		margin-top: 7%;
+		margin-bottom: 5%;
+	}
+
+	#backgroundInfo{
+		margin-top: 7%;
+	}
+
+	#largeNav{
+		display: table;
+		float: right;
+		
+	}
+
+	.navLarge{
+		display: table-cell;
+		vertical-align: middle;
+		margin-left: 0.5em;
+	}
+
+
+
+	#heading{
+		text-align: center;
+		margin-top: 3%;
+		margin-bottom: 3%;
+		border-radius: 2em;
+		border-radius: 4em;
+		background-color: #119da4;
+		display: block;
+		padding: 0.5%;
+		font-size: 1.3em;
+		border: solid;
+		border-color: #13505B;
+		width: 30%;
+		margin-left: auto;
+		margin-right: auto;
+		border-width: 0.3em;
+		min-width: 7em;
+	}
+
+	#videoGameImg{
+		width:  45%;
+		height: 17em;
+		display: inline-block;
+		float:  right;
+		margin-bottom: 3%;
+	}
+
+	#hobbiesText{
+		width: 50%;
+		display: inline-block;
+	}
+
+
+}
